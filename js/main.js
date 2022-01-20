@@ -1,25 +1,41 @@
-class Player
-{
-    constructor(name, club, birth) 
-    {
-        this.name = name;
-        this.club = club;
-        this.birth = birth;
-    }
-
-    generalInfo() {
-        return `${this.name} playing at ${this.club} FC and was born at ${this.birth}`
-    }
-
-    ageInfo() {
-        const age = new Date().getFullYear() - this.birth;
-        return ` His age is ${age} years old.`
-    }
-}
-
-const player1 = new Player('Cristiano Ronaldo', 'Manchester United', '1985')
-const data1 = player1.generalInfo();
-const data2 = player1.ageInfo();
-
+const button = document.querySelector('#button');
 const result = document.getElementById('result');
-result.textContent = `${data1} , ${data2}`;
+const database = [];
+
+button.addEventListener("click", () => {
+
+    const name = document.querySelector('#name').value;
+    const job  = document.querySelector('#job').value;
+    const age  = document.querySelector('#age').value;
+
+    class Player {
+        constructor(name, job, birth) {
+            this.name = name;
+            this.job = job;
+            this.age = age;
+        }
+
+        generalInfo() {
+            return `${this.name} working at ${this.job} and ${this.age} years old.`
+        }
+
+        ageInfo() {
+            const age = new Date().getFullYear() - this.age;
+            return ` His birth year is ${age}`
+        }
+    }
+
+    const player1 = new Player(name, job, age);
+    const data1 = player1.generalInfo();
+    const data2 = player1.ageInfo();
+
+    database.push(player1);
+    
+    if(player1.age < 30)
+    {
+        
+        result.innerHTML += `<p>${data1}${data2}<p>`;
+    }
+    console.table(database);
+
+});
