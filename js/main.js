@@ -28,14 +28,11 @@ button.addEventListener("click", () => {
     const player1 = new Player(name, job, age);
     const data1 = player1.generalInfo();
     const data2 = player1.ageInfo();
-
     database.push(player1);
-    
+
     if(player1.age < 30)
     {
-        
         result.innerHTML += `<p>${data1}${data2}<p>`;
     }
     console.table(database);
-
 });
