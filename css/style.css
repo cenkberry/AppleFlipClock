@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
     text-indent: 0;
@@ -10,10 +10,16 @@
     vertical-align: baseline;
 
 }
-html {
+
+html
+{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-size: 16px;
+}
+
+body{
+    background-color: #D4D4B1;
 }
 
 .boxrow *{
@@ -24,5 +30,4 @@ html {
     font-size: 2rem;
     border:5px solid #000000;
     cursor:pointer;
-
 }
