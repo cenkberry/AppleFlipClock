@@ -1,12 +1,12 @@
-let box1   = document.querySelector('.box1');
-let box2   = document.querySelector('.box2');
-let box3   = document.querySelector('.box3');
-let box4   = document.querySelector('.box4');
-let boxrow = document.querySelector('.boxrow');
-
+let   box1   = document.querySelector('.box1');
+let   box2   = document.querySelector('.box2');
+let   box3   = document.querySelector('.box3');
+let   box4   = document.querySelector('.box4');
+const boxrow = document.querySelector('.boxrow');
 const sleft    = document.querySelector('#sleft');
 const sright   = document.querySelector('#sright');
 const bdelete  = document.querySelector('#bdelete');
+
 
 box1.addEventListener("click" , () =>{
 
@@ -38,8 +38,10 @@ box1.addEventListener("click" , () =>{
       });
       bdelete.addEventListener("click", () =>
       {
-         if(box1.style.opacity === "0.6"){
+         if(box1.style.opacity === "0.6")
+         {
           boxrow.removeChild(box1);
+         }
       });
 
    }
