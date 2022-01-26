@@ -7,7 +7,6 @@ const sleft    = document.querySelector('#sleft');
 const sright   = document.querySelector('#sright');
 const bdelete  = document.querySelector('#bdelete');
 
-
 box1.addEventListener("click" , () =>{
 
    if(box1.style.opacity === "1")
@@ -20,7 +19,6 @@ box1.addEventListener("click" , () =>{
       box4.style.opacity = "1";
       box1.style.border = "5px solid red";
       box1.style.opacity = "0.6";
-
 
       sleft.addEventListener("click", () =>
       {
