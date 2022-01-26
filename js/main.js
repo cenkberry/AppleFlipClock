@@ -40,8 +40,6 @@ box1.addEventListener("click" , () =>{
       {
          if(box1.style.opacity === "0.6"){
           boxrow.removeChild(box1);
-          box1 = " ";
-         }
       });
 
    }
@@ -86,7 +84,6 @@ box2.addEventListener("click" , () =>{
       {
          if(box2.style.opacity === "0.6"){
           boxrow.removeChild(box2);
-          box2 = " ";
          }
       });
 
@@ -132,7 +129,6 @@ box3.addEventListener("click" , () =>{
       {
          if(box3.style.opacity === "0.6"){
           boxrow.removeChild(box3);
-          box3 = " ";
          }
       });
 
@@ -178,7 +174,6 @@ box4.addEventListener("click" , () =>{
       {
          if(box4.style.opacity === "0.6"){
           boxrow.removeChild(box4);
-          box4 = " ";
          }
       });
 
