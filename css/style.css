@@ -20,13 +20,3 @@ html
 body{
     background-color: #D4D4B1;
 }
-
-.boxrow *{
-    height : 300px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    border:5px solid #000000;
-    cursor:pointer;
-}
