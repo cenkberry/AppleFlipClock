@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-indent: 0;
@@ -10,13 +10,144 @@
     vertical-align: baseline;
 }
 
-html
-{
+html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-size: 16px;
 }
 
-body{
+body {
     background-color: #D4D4B1;
+}
+
+.screen {
+    position: relative;
+    height: 50rem;
+    width: 50rem;
+    background-color: #000000;
+    border-radius: 50%;
+    animation: screenmove 10s linear infinite;
+}
+
+@keyframes screenmove {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+@keyframes move {
+
+    0% {
+        top: 0;
+        left: 0;
+        transform: scale(0.2);
+    }
+
+    12% {
+        top: 0;
+        left: 20rem;
+    }
+
+    24% {
+        top: 0;
+        left: 36rem;
+        transform: scale(0.7);
+    }
+
+    36% {
+        top: 20rem;
+        left: 40rem;
+    }
+
+    48% {
+        top: 40rem;
+        left: 40rem;
+        transform: scale(1.4);
+    }
+
+    60% {
+        top: 40rem;
+        right: 20rem;
+    }
+
+    72% {
+        top: 40rem;
+        left: 0;
+        transform: scale(0.7);
+    }
+
+    84% {
+        top: 20rem;
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        transform: scale(0.1);
+    }
+}
+
+@keyframes dance {
+
+    0% {
+        top: 4rem;
+        left: 4rem;
+        transform: scale(0.2);
+    }
+
+    12% {
+        top: 4rem;
+        left: 16rem;
+    }
+
+    24% {
+        top: 4rem;
+        left: 36rem;
+        transform: scale(0.7);
+    }
+
+    36% {
+        top: 16rem;
+        left: 36rem;
+    }
+
+    48% {
+        top: 36rem;
+        left: 36rem;
+        transform: scale(1.4);
+    }
+
+    60% {
+        top: 36rem;
+        right: 16rem;
+    }
+
+    72% {
+        top: 36rem;
+        left: 4rem;
+        transform: scale(0.7);
+    }
+
+    84% {
+        top: 16rem;
+        left: 4rem;
+    }
+
+    100% {
+        top: 4rem;
+        left: 4rem;
+        transform: scale(0.1);
+    }
+
 }
