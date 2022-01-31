@@ -17,8 +17,7 @@ function runner() {
         hnumbU.innerHTML = `0${hour}`;
         hnumbD.innerHTML = `0${hour}`;
         flipnumL.innerHTML = `0${hour}`;
-    }
-    else {
+    } else {
         hnumbU.innerHTML = `${hour}`;
         hnumbD.innerHTML = `${hour}`;
         flipnumL.innerHTML = `${hour}`;
@@ -28,8 +27,7 @@ function runner() {
         mnumbD.innerHTML = `0${minute}`;
         flipdnumR.innerHTML = `0${minute}`;
 
-    }
-    else {
+    } else {
         mnumbU.innerHTML = `${minute}`;
         mnumbD.innerHTML = `${minute}`;
         flipdnumR.innerHTML = `${minute}`;
@@ -40,8 +38,7 @@ function runner() {
         flipdivR.style.animationName = "flipup1";
         flipdivR.style.animationDuration = "0.3s";
         flipdivR.style.animationTimingFunction = "linear";
-    }
-    else {
+    } else {
         flipdivR.style.display = "none";
         flipdivR.style.animationName = "none";
 
@@ -51,8 +48,7 @@ function runner() {
         flipdivL.style.animationName = "flipup2";
         flipdivL.style.animationDuration = "0.3";
         flipdivL.style.animationTimingFunction = "linear";
-    }
-    else {
+    } else {
         flipdivL.style.display = "none";
         flipdivL.style.animationName = "none";
 

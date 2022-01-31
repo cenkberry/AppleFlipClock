@@ -37,8 +37,8 @@ html {
     width: 80%;
 }
 
-.inpage{
-    height:100vh;
+.inpage {
+    height: 100vh;
 }
 
 .numbUP {
@@ -153,18 +153,21 @@ html {
         transform: rotateX(0deg);
     }
 }
+
 @media screen and (max-width: 768px) {
     .inpage {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
     }
-    .box{
+
+    .box {
         width: 100%;
 
     }
+
     .box1 {
         display: flex;
         align-items: center;
@@ -175,19 +178,20 @@ html {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top:1vw;
+        margin-top: 1vw;
     }
+
     .numbUP,
     .numbDown,
     .flipdivL,
-    .flipdivR{
+    .flipdivR {
         font-size: 32vw;
     }
 
-.page {
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .page {
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
