@@ -8,146 +8,148 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     vertical-align: baseline;
+
 }
 
 html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-size: 16px;
+
 }
 
-body {
-    background-color: #D4D4B1;
-}
-
-.screen {
-    position: relative;
-    height: 50rem;
-    width: 50rem;
+.page {
     background-color: #000000;
-    border-radius: 50%;
-    animation: screenmove 10s linear infinite;
 }
 
-@keyframes screenmove {
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.box {
+    position: relative;
+    width: 85%;
+    height: 85%;
+}
+
+.numbUP {
+    border-top-left-radius: 9vw;
+    border-top-right-radius: 9vw;
+    background-color: #111111;
+    color: #bababa;
+    width: 100%;
+    height: 20vw;
+    font-size: 36vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 0.5vw;
+
+}
+
+.numbDown {
+    border-bottom-left-radius: 9vw;
+    border-bottom-right-radius: 9vw;
+    background-color: #111111;
+    color: #bababa;
+    width: 100%;
+    height: 20vw;
+    font-size: 36vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.flipdivL {
+    position: absolute;
+    border-bottom-left-radius: 9vw;
+    border-bottom-right-radius: 9vw;
+    background-color: #111111;
+    color: #bababa;
+    width: 100%;
+    top: 20.5vw;
+    height: 20vw;
+    font-size: 36vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    animation-timing-function: linear;
+}
+
+.flipdivR {
+    position: absolute;
+    border-bottom-left-radius: 9vw;
+    border-bottom-right-radius: 9vw;
+    background-color: #111111;
+    color: #bababa;
+    width: 100%;
+    top: 20.5vw;
+    height: 20vw;
+    font-size: 36vw;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    animation-timing-function: linear;
+}
+
+.flipnumL {
+    margin-bottom: 25vw;
+}
+
+.flipnumR {
+    margin-bottom: 25vw;
+}
+
+.hnumbU {
+    margin-top: 16.5vw;
+}
+
+.hnumbD {
+    margin-bottom: 25vw;
+}
+
+.mnumbU {
+    margin-top: 16.5vw;
+}
+
+.mnumbD {
+    margin-bottom: 25vw;
+}
+
+@keyframes flipup1 {
 
     0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(0.5);
+        top: 0vw;
+        transform: rotateX(200deg);
     }
 
     100% {
-        transform: scale(1);
-    }
-
-}
-
-@keyframes move {
-
-    0% {
-        top: 0;
-        left: 0;
-        transform: scale(0.2);
-    }
-
-    12% {
-        top: 0;
-        left: 20rem;
-    }
-
-    24% {
-        top: 0;
-        left: 36rem;
-        transform: scale(0.7);
-    }
-
-    36% {
-        top: 20rem;
-        left: 40rem;
-    }
-
-    48% {
-        top: 40rem;
-        left: 40rem;
-        transform: scale(1.4);
-    }
-
-    60% {
-        top: 40rem;
-        right: 20rem;
-    }
-
-    72% {
-        top: 40rem;
-        left: 0;
-        transform: scale(0.7);
-    }
-
-    84% {
-        top: 20rem;
-        left: 0;
-    }
-
-    100% {
-        top: 0;
-        left: 0;
-        transform: scale(0.1);
+        top: 20.5vw;
+        transform: rotateX(0deg);
     }
 }
 
-@keyframes dance {
+@keyframes flipup2 {
 
     0% {
-        top: 4rem;
-        left: 4rem;
-        transform: scale(0.2);
-    }
-
-    12% {
-        top: 4rem;
-        left: 16rem;
-    }
-
-    24% {
-        top: 4rem;
-        left: 36rem;
-        transform: scale(0.7);
-    }
-
-    36% {
-        top: 16rem;
-        left: 36rem;
-    }
-
-    48% {
-        top: 36rem;
-        left: 36rem;
-        transform: scale(1.4);
-    }
-
-    60% {
-        top: 36rem;
-        right: 16rem;
-    }
-
-    72% {
-        top: 36rem;
-        left: 4rem;
-        transform: scale(0.7);
-    }
-
-    84% {
-        top: 16rem;
-        left: 4rem;
+        top: 0vw;
+        transform: rotateX(200deg);
     }
 
     100% {
-        top: 4rem;
-        left: 4rem;
-        transform: scale(0.1);
+        top: 20.5vw;
+        transform: rotateX(0deg);
     }
-
 }

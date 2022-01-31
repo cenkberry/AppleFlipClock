@@ -1,20 +1,42 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="StyleSheet" href="./css/style.css">
-    <title>polymorphism</title>
+  <link rel="StyleSheet" href="./css/style.css">
+  <title>IOS Flip Clock</title>
 </head>
 <body>
-  <div class="container-lg">
-    <div class="row d-flex justify-content-center">
-      <div class="col-12 text-center">
-        <button class="btn btn-success mt-2 mybut">Run</button>
+  <div class="container-fluid page vh-100">
+    <div class="row">
+      <div class="col-6 box1 vh-100">
+        <div class="box">
+          <div class="flipdivL">
+            <div class="flipnumL"></div>
+          </div>
+          <div class="numbUP">
+            <div class="hnumbU"></div>
+          </div>
+          <div class="numbDown">
+            <div class="hnumbD"></div>
+          </div>
+        </div>
       </div>
-      <div class="col-8 mt-2 screen">
+      <div class="col-6 box2 vh-100">
+        <div class="box">
+          <div class="flipdivR">
+            <div class="flipnumR"></div>
+          </div>
+          <div class="numbUP">
+            <div class="mnumbU"></div>
+          </div>
+          <div class="numbDown">
+            <div class="mnumbD"></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -23,4 +45,5 @@
   </script>
   <script src="./js/main.js"></script>
 </body>
+
 </html>
