@@ -181,12 +181,7 @@ html {
         margin-top: 1vw;
     }
 
-    .numbUP,
-    .numbDown,
-    .flipdivL,
-    .flipdivR {
-        font-size: 32vw;
-    }
+
 
     .page {
         background-color: #000000;
@@ -194,4 +189,28 @@ html {
         align-items: center;
         justify-content: center;
     }
+    .flipnumL {
+        margin-bottom: 25vw;
+    }
+
+    .flipnumR {
+        margin-bottom: 22vw;
+    }
+
+    .hnumbU {
+        margin-top: 19vw;
+    }
+
+    .hnumbD {
+        margin-bottom:22vw;
+    }
+
+    .mnumbU {
+        margin-top: 19vw;
+    }
+
+    .mnumbD {
+        margin-bottom: 22vw;
+    }
+
 }
