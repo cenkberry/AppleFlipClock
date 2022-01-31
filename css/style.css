@@ -8,14 +8,12 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     vertical-align: baseline;
-
 }
 
 html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-size: 16px;
-
 }
 
 .page {
@@ -36,34 +34,41 @@ html {
 
 .box {
     position: relative;
+<<<<<<< HEAD
+    width: 80%;
+}
+
+.inpage{
+    height:100vh;
+=======
     width: 85%;
     height: 85%;
+>>>>>>> a9f77e160b13935581f947bdeebb0da5b2fc088d
 }
 
 .numbUP {
     border-top-left-radius: 9vw;
     border-top-right-radius: 9vw;
-    background-color: #111111;
+    background-color: #1F2020;
     color: #bababa;
     width: 100%;
     height: 20vw;
-    font-size: 36vw;
+    font-size: 32vw;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     margin-bottom: 0.5vw;
-
 }
 
 .numbDown {
     border-bottom-left-radius: 9vw;
     border-bottom-right-radius: 9vw;
-    background-color: #111111;
+    background-color: #1F2020;
     color: #bababa;
     width: 100%;
     height: 20vw;
-    font-size: 36vw;
+    font-size: 32vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,12 +79,12 @@ html {
     position: absolute;
     border-bottom-left-radius: 9vw;
     border-bottom-right-radius: 9vw;
-    background-color: #111111;
+    background-color: #1F2020;
     color: #bababa;
     width: 100%;
     top: 20.5vw;
     height: 20vw;
-    font-size: 36vw;
+    font-size: 32vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,12 +96,12 @@ html {
     position: absolute;
     border-bottom-left-radius: 9vw;
     border-bottom-right-radius: 9vw;
-    background-color: #111111;
+    background-color: #1F2020;
     color: #bababa;
     width: 100%;
     top: 20.5vw;
     height: 20vw;
-    font-size: 36vw;
+    font-size: 32vw;
     display: none;
     align-items: center;
     justify-content: center;
@@ -153,3 +158,38 @@ html {
         transform: rotateX(0deg);
     }
 }
+<<<<<<< HEAD
+@media screen and (max-width: 768px) {
+    .inpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+    .box1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:1vw;
+    }
+    .numbUP,
+    .numbDown,
+    .flipdivL,
+    .flipdivR{
+        font-size: 36vw;
+    }
+
+}
+=======
+>>>>>>> a9f77e160b13935581f947bdeebb0da5b2fc088d

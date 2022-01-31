@@ -49,7 +49,7 @@ function runner() {
     if (minute === 00 && second === 0) {
         flipdivL.style.display = "flex";
         flipdivL.style.animationName = "flipup2";
-        flipdivL.style.animationDuration = "0.3s";
+        flipdivL.style.animationDuration = "0.3";
         flipdivL.style.animationTimingFunction = "linear";
     }
     else {
