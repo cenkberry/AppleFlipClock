@@ -153,7 +153,6 @@ html {
         transform: rotateX(0deg);
     }
 }
-<<<<<<< HEAD
 @media screen and (max-width: 768px) {
     .inpage {
     display: flex;
@@ -186,5 +185,3 @@ html {
     }
 
 }
-=======
->>>>>>> a9f77e160b13935581f947bdeebb0da5b2fc088d
