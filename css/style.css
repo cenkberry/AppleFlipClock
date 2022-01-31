@@ -34,16 +34,11 @@ html {
 
 .box {
     position: relative;
-<<<<<<< HEAD
     width: 80%;
 }
 
 .inpage{
     height:100vh;
-=======
-    width: 85%;
-    height: 85%;
->>>>>>> a9f77e160b13935581f947bdeebb0da5b2fc088d
 }
 
 .numbUP {
