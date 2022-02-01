@@ -192,28 +192,5 @@ html {
         align-items: center;
         justify-content: center;
     }
-    .flipnumL {
-        margin-bottom: 25vw;
-    }
-
-    .flipnumR {
-        margin-bottom: 22vw;
-    }
-
-    .hnumbU {
-        margin-top: 19vw;
-    }
-
-    .hnumbD {
-        margin-bottom:22vw;
-    }
-
-    .mnumbU {
-        margin-top: 19vw;
-    }
-
-    .mnumbD {
-        margin-bottom: 22vw;
-    }
 
 }
