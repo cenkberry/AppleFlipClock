@@ -1,3 +1,4 @@
+@import url('https://v1.fontapi.ir/css/SFProDisplay:300;400;700;900');
 * {
     margin: 0;
     padding: 0;
@@ -14,10 +15,12 @@ html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-size: 16px;
+    font-family: 'SF Pro Display', sans-serif;
 }
 
 .page {
     background-color: #000000;
+    font-family: 'SF Pro Display', sans-serif;
 }
 
 .box1 {
@@ -105,27 +108,27 @@ html {
 }
 
 .flipnumL {
-    margin-bottom: 25vw;
+    margin-bottom: 21vw;
 }
 
 .flipnumR {
-    margin-bottom: 25vw;
+    margin-bottom: 21vw;
 }
 
 .hnumbU {
-    margin-top: 16.5vw;
+    margin-top: 21vw;
 }
 
 .hnumbD {
-    margin-bottom: 25vw;
+    margin-bottom: 21vw;
 }
 
 .mnumbU {
-    margin-top: 16.5vw;
+    margin-top: 21vw;
 }
 
 .mnumbD {
-    margin-bottom: 25vw;
+    margin-bottom: 21vw;
 }
 
 @keyframes flipup1 {
