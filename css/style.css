@@ -1,194 +1,190 @@
-@import url('https://v1.fontapi.ir/css/SFProDisplay:300;400;700;900');
+@import url("https://v1.fontapi.ir/css/SFProDisplay:300;400;700;900");
 * {
-    margin: 0;
-    padding: 0;
-    text-indent: 0;
-    outline: 0;
-    border: 0;
-    font-size: 100%;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  outline: 0;
+  border: 0;
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: baseline;
 }
 
 html {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 16px;
-    font-family: 'SF Pro Display', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "SF Pro Display", sans-serif;
 }
 
 .page {
-    background-color: #000000;
-    font-family: 'SF Pro Display', sans-serif;
+  background-color: #000000;
+  font-family: "SF Pro Display", sans-serif;
 }
 
 .box1 {
-    display: flex;
-    align-items: center;
-    justify-content: end;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .box2 {
-    display: flex;
-    align-items: center;
-    justify-content: start;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 .box {
-    position: relative;
-    width: 80%;
+  position: relative;
+  width: 80%;
 }
 
 .inpage {
-    height: 100vh;
+  height: 100vh;
 }
 
 .numbUP {
-    border-top-left-radius: 9vw;
-    border-top-right-radius: 9vw;
-    background-color: #1F2020;
-    color: #bababa;
-    width: 100%;
-    height: 20vw;
-    font-size: 32vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    margin-bottom: 0.5vw;
+  border-top-left-radius: 9vw;
+  border-top-right-radius: 9vw;
+  background-color: #1f2020;
+  color: #bababa;
+  width: 100%;
+  height: 20vw;
+  font-size: 32vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 0.5vw;
 }
 
 .numbDown {
-    border-bottom-left-radius: 9vw;
-    border-bottom-right-radius: 9vw;
-    background-color: #1F2020;
-    color: #bababa;
-    width: 100%;
-    height: 20vw;
-    font-size: 32vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+  border-bottom-left-radius: 9vw;
+  border-bottom-right-radius: 9vw;
+  background-color: #1f2020;
+  color: #bababa;
+  width: 100%;
+  height: 20vw;
+  font-size: 32vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .flipdivL {
-    position: absolute;
-    border-bottom-left-radius: 9vw;
-    border-bottom-right-radius: 9vw;
-    background-color: #1F2020;
-    color: #bababa;
-    width: 100%;
-    top: 20.5vw;
-    height: 20vw;
-    font-size: 32vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    animation-timing-function: linear;
+  position: absolute;
+  border-bottom-left-radius: 9vw;
+  border-bottom-right-radius: 9vw;
+  background-color: #1f2020;
+  color: #bababa;
+  width: 100%;
+  top: 20.5vw;
+  height: 20vw;
+  font-size: 32vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  animation-timing-function: linear;
 }
 
 .flipdivR {
-    position: absolute;
-    border-bottom-left-radius: 9vw;
-    border-bottom-right-radius: 9vw;
-    background-color: #1F2020;
-    color: #bababa;
-    width: 100%;
-    top: 20.5vw;
-    height: 20vw;
-    font-size: 32vw;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    animation-timing-function: linear;
+  position: absolute;
+  border-bottom-left-radius: 9vw;
+  border-bottom-right-radius: 9vw;
+  background-color: #1f2020;
+  color: #bababa;
+  width: 100%;
+  top: 20.5vw;
+  height: 20vw;
+  font-size: 32vw;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  animation-timing-function: linear;
 }
 
 .flipnumL {
-    margin-bottom: 20.5vw;
+  margin-bottom: 20.5vw;
 }
 
 .flipnumR {
-    margin-bottom: 20.5vw;
+  margin-bottom: 20.5vw;
 }
 
 .hnumbU {
-    margin-top: 21vw;
+  margin-top: 21vw;
 }
 
 .hnumbD {
-    margin-bottom: 20.5vw;
+  margin-bottom: 20.5vw;
 }
 
 .mnumbU {
-    margin-top: 21vw;
+  margin-top: 21vw;
 }
 
 .mnumbD {
-    margin-bottom: 20.5vw;
+  margin-bottom: 20.5vw;
 }
 
 @keyframes flipup1 {
+  0% {
+    top: 0vw;
+    transform: rotateX(200deg);
+  }
 
-    0% {
-        top: 0vw;
-        transform: rotateX(200deg);
-    }
-
-    100% {
-        top: 20.5vw;
-        transform: rotateX(0deg);
-    }
+  100% {
+    top: 20.5vw;
+    transform: rotateX(0deg);
+  }
 }
 
 @keyframes flipup2 {
+  0% {
+    top: 0vw;
+    transform: rotateX(200deg);
+  }
 
-    0% {
-        top: 0vw;
-        transform: rotateX(200deg);
-    }
-
-    100% {
-        top: 20.5vw;
-        transform: rotateX(0deg);
-    }
+  100% {
+    top: 20.5vw;
+    transform: rotateX(0deg);
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .inpage {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-    }
+  .inpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
 
-    .box {
-        width: 100%;
+  .box {
+    width: 100%;
+  }
 
-    }
+  .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .box1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .box2 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 1vw;
-    }
-    .page {
-        background-color: #000000;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
+  .box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vw;
+  }
+  .page {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
